@@ -11,6 +11,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 public class BillageApplication {
 
     public static void main(String[] args) {
+        System.out.println("hello!");
         SpringApplication.run(BillageApplication.class, args);
     }
 
